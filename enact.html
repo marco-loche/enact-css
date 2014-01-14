@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+  <title>ENACT Css Style Guide</title>
+  <meta name="description" content="This document illustrate the different types and usages of css class for the ENACT project">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+  h1.ENACT-CourseTitle{
+    background: #F7F5F1;
+    border-left: 3px solid #f97a05;
+    color: #800000;
+    width: 100%;
+    display: block;
+    padding: 0 0 0 5px;
+    font-size: 1.3em;
+  
+  }
+  
+  h2.ENACT-UnitTitle {
+    color: #E36C0A;
+    font-weight: bold;
+    font-size: 1.2em;  
+  }
+  
+  h3.ENACT-SectionTitle {
+    color: #548DD4;
+    font-weight: bold;
+    font-size: 1.1em;  
+  }
+  
+  
+  h4.ENACT-SubSectionTitle {
+    color: #548DD4;
+    font-weight: bold;
+    font-size: 1.05em;
+    text-decoration: underline; 
+  }
+  
+  h4.ENACT-ActivityTitle {
+    color: #548DD4;
+    font-weight: bold;
+    font-size: 1.05em;
+    text-decoration: underline;  
+  }
+    div.ENACT-container {
+        text-align:center;
+        background-color: #ddd;
+    }
+    div.ENACT-inlineblock { 
+        display: inline-block;
+        zoom: 1;
+        display*: inline; /* ie hack */
+        background-color: #BF504C;
+        border: 1px solid #6A2C2A;
+        width: 50%;
+        min-width: 400px;
+        padding: 5px;
+        color: #FFF;
+    }
+    
+    a.ENACT-ActivityLink{
+      display: inline-block;
+      background-color: #D6E3BB;
+      border: 1px solid #6F7661;
+      padding: 10px;
+      margin: 2px;
+      
+    } 
+    /* NOT FOR PRODUCTION*/
+    a.toplink:link,
+    a.toplink:visited,
+    a.toplink:hover,
+    a.toplink:active{ 
+      text-decoration: none;  
+    }
+    footer{
+      margin: 20px 0 0 0;
+    }
+  </style>
+</head>
+<body>
+	<header>
+	
+		<h1 id='header'>ENACT PROJECT - CSS classes</h1>
+		<nav role="navigation">
+      <ul>
+        <li><a href="#enact-course-title">ENACT-CourseTitle</a></li>
+        <li><a href="#enact-unit-title">ENACT-UnitTitle</a></li>
+        <li><a href="#enact-section-title">ENACT-SectionTitle</a></li>
+        <li><a href="#enact-subsection-title">ENACT-SubSectionTitle</a></li>
+        <li><a href="#enact-activity-title">ENACT-ActivityTitle</a></li>
+        <li><a href="#enact-emphasis-paragraph">ENACT-EmphasisParagraph</a></li>
+        <li><a href="#enact-activity-link">ENACT-ActivityLink</a></li>
+      </ul>
+		</nav>
+		<p>This document illustrate the different types and usages of css class for the ENACT project</p>
+	</header>
+  <section>
+  <hr />
+	<header>
+		<h2>Titles</h2>
+	</header>
+	<article id="titles">
+    
+	  <div id="enact-course-title">
+      <!-- ENACT-CourseTitle -->
+      <h1 class='ENACT-CourseTitle'>ENACT Course</h1>
+    </div>
+    <div><a href="#header" class="toplink">↑</a></div>
+    
+	  <div id="enact-unit-title">
+      <!-- ENACT-UnitTitle -->
+      <h2 class='ENACT-UnitTitle'>ENACT Unit Title</h2>
+    </div>
+    <div><a href="#header" class="toplink">↑</a></div>
+    
+	  <div id="enact-section-title">
+      <!-- ENACT-SectionTitle -->
+			<h3 class='ENACT-SectionTitle'>ENACT Section Title</h3>
+    </div>
+    <div><a href="#header" class="toplink">↑</a></div>
+    
+		<div id="enact-subsection-title">
+      <!-- ENACT-SubSectionTitle -->
+		  <h4 class='ENACT-SubSectionTitle'>ENACT Sub-Section Ttitle</h4>
+    </div>
+    <div><a href="#header" class="toplink">↑</a></div>
+  
+		<div id="enact-activity-title">
+      <!-- ENACT-ActivityTitle -->
+		  <h4 class='ENACT-ActivityTitle'>ENACT Activity Title</h4>
+    </div>
+    <div><a href="#header" class="toplink">↑</a></div>
+    
+	</article>
+</section>
+  <hr />
+  <section>
+	<header>
+		<h2>Paragraphs</h2>
+	</header>
+	<article id="paragraph">
+		<h3 id="enact-emphasis-paragraph">ENACT Emphasis Paragraph</h3>
+    <div class="ENACT-container ">
+    	<div class="ENACT-inlineblock">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p></div>
+    </div>
+     <div><a href="#header" class="toplink">↑</a></div>
+		<h3 id="enact-activity-link">ENACT Activity Link</h3>
+    <a class="ENACT-ActivityLink" href="#">ENACT Activity Link</a>
+    <div><a href="#header" class="toplink">↑</a></div>
+	</article>
+</section>
+<footer role="contentinfo">
+
+	<small>Copyright &copy; <time datetime="2014">2014</time> ENACT Team - Developed by Marco :)</small>
+	
+</footer>
+
+</body>
+</html>
