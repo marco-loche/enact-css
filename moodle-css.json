@@ -1,0 +1,18 @@
+{
+"style_formats":[
+  {"title":"ENACT-CourseTitle","inline":"span","styles":{"color":"#800000"}},
+  {"title":"ENACT-CourseDescription","selector":"table","styles":{"border-left": "3px solid #f97a05", "width": "100%"}},
+  {"title":"ENACT-MainSection","selector":"table","styles":{"background-color":"#53515e","border":"0pxsolid#252869","width":"100%"}},
+  {"title":"ENACT-SubSection","selector":"table","styles":{"border-left":"solid #d23d2d 3px","border-top":"solid #d23d2d 1px","width":"100%"}},
+  {"title":"ENACT-ActivitySection","selector":"table","styles":{"border-width": "1px 0px 0px 3px", "border-style": "solid", "border-color": "#d23d2d #000000 #000000 #d23d2d", "background-color": "#f0e6c6", "width": "100%"}},
+
+  {"title":"ENACT-CourseTitle","selector":"h1","styles":{"background": "#F7F5F1", "border-left": "3px solid #f97a05","color": "#800000", "width": "100%","display": "block", "padding": "0 0 0 5px", "font-size": "1.3em"}},
+    {"title":"ENACT-UnitTitle","selector":"h2","styles":{"color": "#E36C0A","font-weight": "bold", "font-size": "1.2em"}},
+    {"title":"ENACT-SectionTitle","selector":"h3","styles":{"color": "#548DD4","font-weight": "bold", "font-size": "1.1em"}},
+    {"title":"ENACT-SubSectionTitle","selector":"h4","styles":{"color": "#548DD4","font-weight": "bold", "font-size": "1.05em", "text-decoration": "underline"}},
+    {"title":"ENACT-ActivityTitle","selector":"h4","styles":{"color": "#548DD","font-weight": "bold", "font-size": "1.05em", "text-decoration": "underline"}},
+    {"title":"ENACT-container","selector":"div","styles":{"background-color":"#ddd","text-align": "center"}},
+    {"title":"ENACT-inlineblock","selector":"div","styles":{"background-color":"#BF504C","border": "1px solid #6A2C2A", "width":"50%", "min-width":"400px", "padding":"5px", "color":"#FFF","display": "inline-block", "zoom": "1", "display*": "inline"}},
+    {"title":"ENACT-inlineblock","selector":"a","styles":{"background-color":"#D6E3BB","border": "1px solid #6F7661", "padding":"10px", "margin":"2px", "display": "inline-block"}}
+    
+]}
