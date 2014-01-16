@@ -62,7 +62,7 @@
         text-align: center;
         background-color: #ddd;
     }
-    div.ENACT-inlineblock { 
+    div.ENACT-inlineblock-emphasis { 
         display: inline-block;
         text-align: left;
         zoom: 1;
@@ -70,9 +70,24 @@
         background-color: #BF504C;
         border: 1px solid #6A2C2A;
         width: 50%;
-        min-width: 400px;
+        min-width: 600px;
         padding: 5px;
         color: #FFF;
+        margin: 10px 0;
+    }
+    
+    div.ENACT-inlineblock-content { 
+        display: inline-block;
+        text-align: left;
+        zoom: 1;
+        display*: inline; /* ie hack */
+        background-color: #FFF;
+        border: 1px solid #222;
+        width: 50%;
+        min-width: 600px;
+        padding: 5px;
+        color: #222;
+        margin: 10px 0;
     }
     
     a.ENACT-ActivityLink{
@@ -106,7 +121,8 @@
         <li><a href="#enact-section-title">ENACT-SectionTitle</a></li>
         <li><a href="#enact-subsection-title">ENACT-SubSectionTitle</a></li>
         <li><a href="#enact-activity-title">ENACT-ActivityTitle</a></li>
-        <li><a href="#enact-emphasis-paragraph">ENACT-EmphasisParagraph</a></li>
+        <li><a href="#enact-inlineblock-emphasis">ENACT-IntlineblockEmphasis</a></li>
+        <li><a href="#enact-inlineblock-content">ENACT-IntlineblockContent</a></li>
         <li><a href="#enact-activity-link">ENACT-ActivityLink</a></li>
       </ul>
 		</nav>
@@ -157,12 +173,21 @@
 		<h2>Paragraphs</h2>
 	</header>
 	<article id="paragraph">
-		<h3 id="enact-emphasis-paragraph">ENACT Emphasis Paragraph</h3>
+		<h3 id="enact-inlineblock-emphasis">ENACT inlineblock Emphasis Paragraph</h3>
     <div class="ENACT-container ">
-    	<div class="ENACT-inlineblock">
+    	<div class="ENACT-inlineblock-emphasis">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p></div>
     </div>
      <div><a href="#header" class="toplink">↑</a></div>
+     
+     
+     
+ 		<h3 id="enact-inlineblock-content">ENACT inlineblock content Paragraph</h3>
+     <div class="ENACT-container ">
+     	<div class="ENACT-inlineblock-content">
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p></div>
+     </div>
+      <div><a href="#header" class="toplink">↑</a></div>
 		<h3 id="enact-activity-link">ENACT Activity Link</h3>
     <a class="ENACT-ActivityLink" href="#">ENACT Activity Link</a>
     <div><a href="#header" class="toplink">↑</a></div>
