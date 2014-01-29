@@ -1,0 +1,33 @@
+.da-slider{
+background: #FFF;
+}
+
+#da-slider div.da-slide-current div.da-img{
+text-align: center;
+}
+
+#da-slider div.da-slide-current h2
+{    
+background: rgba(0, 0, 0, 0.5);
+}
+
+#da-slider div.da-slide-current p
+{    
+background: rgba(0, 0, 0, 0.5);
+height: 26px;
+color:#FFF;
+}
+
+body{
+background: #FFF;
+}
+#page-header{
+background: white;
+}
+
+div.course-content{
+border-radius: 8px;
+border: 1px solid #E1E1E1;
+
+}
+
